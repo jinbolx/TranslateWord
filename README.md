@@ -1,4 +1,4 @@
 # TranslateWord
 a translate plugin for IDEA<br/>
-使用: 和普通插件一样可直接通过TranslateWords.jar，后期可以通过仓库进行搜索
+使用:快捷键为T+W, 和普通插件一样可直接通过项目自带的TranslateWords.jar，或者插件库直接搜索"translate word"安装然后重启使用。<br/>
 ![image](https://github.com/jinbolx/TranslateWord/blob/master/picture/picture.PNG)
