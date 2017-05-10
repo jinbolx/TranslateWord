@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.jin.translate</id>
   <name>Translate Word</name>
-  <version>1.0</version>
+  <version>1.0.2</version>
   <vendor email="jinmin3401@gmail.com" url="https://www.github.com/jinbolx">jinbolx</vendor>
 
   <description><![CDATA[
@@ -9,7 +9,8 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      first version
+     1.0 first version<br/>
+     1.0.2 change shortcut to ctrl + QUOTE
     ]]>
   </change-notes>
 
@@ -31,7 +32,7 @@
     <action id="TranslateAction" class="jin.translate.TranslateAction" text="Translate"
             description="translate for selected word">
       <add-to-group group-id="EditMenu" anchor="first"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="T" second-keystroke="W"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl QUOTE" />
     </action>
   </actions>
 

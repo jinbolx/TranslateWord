@@ -75,8 +75,6 @@ public class TranslateAction extends AnAction {
                     }catch (Exception e){
                         showText = new StringBuilder("无网络释义");
                     }
-
-
                     showPopUp(editor, showText.toString());
                 }
             } catch (IOException e) {
